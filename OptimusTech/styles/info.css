@@ -1,0 +1,39 @@
+.info{
+display: flex;
+flex-direction: column;
+}
+
+.info__container{
+margin: 0 auto;
+}
+
+.titulo-info{
+    font-family: var(--inter);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--dark-gray);
+    padding-bottom: 2em;
+}
+
+.titulo-vaga{
+    font-family: var(--inter);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--dark-gray); 
+}
+
+.informacoes{
+    font-family: var(--inter);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--gray); 
+    padding-top: 2em;
+}
+
+.vaga{
+    border: solid 1px #EAECF0;
+    border-radius: 16px;
+    padding: 1.5em 1.5em 1.75em 1.5em;
+    margin-bottom: 2em;
+    padding-right: 50em;
+}

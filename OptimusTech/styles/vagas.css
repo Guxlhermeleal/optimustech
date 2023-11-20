@@ -1,0 +1,43 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6em 0;
+}
+.vagas__container{
+    padding: 0em 0em 4em 0;
+    text-align: center;
+}
+.vagas__buton{
+    border: solid 1px  transparent;
+    border-radius: 16px;
+    background: #FFFBFA;
+    padding: 0.25em;
+    text-decoration: none;
+    color: var(--dark-red);
+    font-family: var(--inter);
+    font-size: 14px;
+    font-weight: 500;
+}
+.vagas__titulo{
+    font-family: var(--inter);
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--dark-gray);
+    padding: 0.75em 0;
+}
+.vagas__texto{
+    font-family: var(--inter);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+}
+.vagas__imagem{
+    width: 90%;
+    border-radius: 16px;
+}
+
+.vagas__buton:hover{
+    background: var(--dark-red);
+    color: #FFFBFA;
+}

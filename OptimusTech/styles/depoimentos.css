@@ -1,0 +1,49 @@
+
+.depoimentos__container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.depoimentos__conteudo{
+    background-color: #C3191908;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 4em;
+    padding: 4em 0;
+    border-radius: 16px;
+}
+.depoimentos-titulo-menor{
+    font-family: var(--inter);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--dark-red);
+    padding-bottom: 1em;
+    
+}
+.depoimentos-titulo-maior{
+    font-family: var(--inter);
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--dark-gray);
+    padding-bottom: 2em;
+}
+.depoimentos__nome{
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark-gray);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.depoimentos__texto{
+    font-family: var(--inter);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray);
+}

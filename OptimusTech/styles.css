@@ -1,0 +1,23 @@
+@import url(styles/header.css);
+@import url(styles/sobrenos.css);
+@import url(styles/metricas.css);
+@import url(styles/vagas.css);
+@import url(styles/info.css);
+@import url(styles/depoimentos.css);
+@import url(styles/footer.css);
+
+:root {
+    --dark-blue-gray: #3A404E;
+    --gray:#667085;
+    --dark-red:#8E2424;
+    --white:#FFF;
+    --inter: 'Inter', sans-serif;
+    --dark-gray:#101828;
+}
+
+.body{
+    background-color: var(--white);
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 16px;
+}

@@ -1,0 +1,32 @@
+.container__sobrenos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sobrenos__principal{
+    font-family: var(--inter);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--dark-red);
+    padding-top: 6em;
+    padding-bottom: 1.5em;
+}
+.sobrenos__titulo{
+    font-family: var(--inter);
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--dark-gray);
+}
+.sobrenos__texto{
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--gray);
+    width: 791px;
+    line-height: 30px;
+    padding-bottom: 6em;
+    padding-top: 1.5em;
+    
+}
